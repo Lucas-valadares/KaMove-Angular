@@ -1,0 +1,21 @@
+{
+    "carro": [
+    {
+        "id": 1,
+        "brand": "Volkswagen",
+        "name": "Gol",
+        "consumption": 11
+    },
+    {
+        "id": 2,
+        "brand": "Volkswagen",
+        "name": "Voyage",
+        "consumption": 9
+    },
+    {
+        "id": 3,
+        "brand": "Fiat",
+        "name": "Mobi",
+        "consumption": 12
+    }]
+}
