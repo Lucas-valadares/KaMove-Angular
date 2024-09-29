@@ -2,10 +2,22 @@
     position: fixed;
     bottom: 0;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
+.copyright{
+  display: flex;
+  align-items: center;
+  font-size: small;
 
+}
+.icon-copyright{
+  font-size: medium;
+}
+
+.global-button a{
+  padding-left: 10px;
+}
 
 .button-linkedin {
     background-color: #ffffff00;
@@ -69,6 +81,44 @@
   }
   
   .button-gitHub .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .button-instagram {
+    background-color: #ffffff00;
+    color: #fff;
+    width: 8.5em;
+    height: 2.9em;
+    border: #FF553E 0.2em solid;
+    border-radius: 33px;
+    text-align: right;
+    transition: all 0.6s ease;
+  }
+  
+  .button-instagram:hover {
+    background: linear-gradient(to left, 
+    #3023AE1f, 
+    #3023AE,   
+    #B5008E,   
+    #FF553E,  
+    #F9DC64);
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button-instagram svg {
+    width: 1.6em;
+    display: flex;
+    transition: all 0.6s ease;
+  }
+  
+  .button-instagram:hover svg {
+    transform: translateX(5px);
+  }
+  
+  .button-instagram .text {
     display: flex;
     align-items: center;
     justify-content: space-around;
